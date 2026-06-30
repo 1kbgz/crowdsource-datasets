@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  sp500:
+  refresh:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,14 +24,15 @@ jobs:
           python-version: "3.12"
       - run: pip install --quiet pandas lxml requests
       - run: python scripts/refresh_sp500.py
+      - run: python scripts/refresh_citibike.py
       - name: Commit if changed
         run: |
           git config user.name "crowdsource-bot"
           git config user.email "bot@crowdsource.sh"
-          git add sp500/constituents.csv
+          git add sp500/constituents.csv bikeshare/citibike/stations.csv
           if git diff --cached --quiet; then
-            echo "No constituent changes."
+            echo "No dataset changes."
           else
-            git commit -m "chore: refresh S&P 500 constituents ($(date -u +%F))"
+            git commit -m "chore: refresh datasets ($(date -u +%F))"
             git push
           fi

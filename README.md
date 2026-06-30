@@ -13,9 +13,13 @@ regenerates each snapshot from its upstream authority and commits only on change
 | Path | Keys | Source | Refresh |
 | --- | --- | --- | --- |
 | [`sp500/constituents.csv`](sp500/constituents.csv) | `Symbol` (S&P 500 members) | Wikipedia — [List of S&P 500 companies](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies) | daily |
+| [`bikeshare/citibike/stations.csv`](bikeshare/citibike/stations.csv) | `station_id` (Citi Bike NYC docks) | [Citi Bike GBFS](https://gbfs.citibikenyc.com/gbfs/en/station_information.json) | daily |
 
 `sp500/constituents.csv` columns: `Symbol, Security, GICS Sector, GICS Sub-Industry`.
 `Symbol` is the index key (matched against Massive day-aggregate tickers at resolution).
+
+`bikeshare/citibike/stations.csv` columns: `station_id, name, lat, lon, capacity`.
+`station_id` is the index key (matched against the Citi Bike `station_status` feed at resolution).
 
 ## Usage
 
