@@ -120,7 +120,6 @@ CSGP,CoStar Group,Real Estate,Real Estate Services
 CSX,CSX Corporation,Industrials,Rail Transportation
 CTAS,Cintas,Industrials,Diversified Support Services
 CTSH,Cognizant,Information Technology,IT Consulting & Other Services
-CTVA,Corteva,Materials,Fertilizers & Agricultural Chemicals
 CVNA,Carvana,Consumer Discretionary,Automotive Retail
 CVS,CVS Health,Health Care,Health Care Services
 CVX,Chevron Corporation,Energy,Integrated Oil & Gas
@@ -378,7 +377,6 @@ PPG,PPG Industries,Materials,Specialty Chemicals
 PPL,PPL Corporation,Utilities,Electric Utilities
 PRU,Prudential Financial,Financials,Life & Health Insurance
 PSA,Public Storage,Real Estate,Self-Storage REITs
-PSKY,Paramount Skydance Corporation,Communication Services,Movies & Entertainment
 PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing
 PTC,PTC Inc.,Information Technology,Application Software
 PWR,Quanta Services,Industrials,Construction & Engineering
@@ -405,6 +403,7 @@ SBUX,Starbucks,Consumer Discretionary,Restaurants
 SCHW,Charles Schwab Corporation,Financials,Investment Banking & Brokerage
 SHW,Sherwin-Williams,Materials,Specialty Chemicals
 SJM,J.M. Smucker Company (The),Consumer Staples,Packaged Foods & Meats
+SKYD,Paramount Skydance Corporation,Communication Services,Movies & Entertainment
 SLB,Schlumberger,Energy,Oil & Gas Equipment & Services
 SMCI,Supermicro,Information Technology,"Technology Hardware, Storage & Peripherals"
 SNA,Snap-on,Industrials,Industrial Machinery & Supplies & Components
@@ -449,6 +448,7 @@ TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers
 TSN,Tyson Foods,Consumer Staples,Packaged Foods & Meats
 TT,Trane Technologies,Industrials,Building Products
 TTWO,Take-Two Interactive,Communication Services,Interactive Home Entertainment
+TWLO,Twilio,Information Technology,Systems Software
 TXN,Texas Instruments,Information Technology,Semiconductors
 TXT,Textron,Industrials,Aerospace & Defense
 TYL,Tyler Technologies,Information Technology,Application Software
@@ -476,10 +476,10 @@ VRTX,Vertex Pharmaceuticals,Health Care,Biotechnology
 VST,Vistra Corp.,Utilities,Electric Utilities
 VTR,Ventas,Real Estate,Health Care REITs
 VTRS,Viatris,Health Care,Pharmaceuticals
+VYLR,Vylor,Consumer Staples,Agricultural Products & Services
 VZ,Verizon,Communication Services,Integrated Telecommunication Services
 WAB,Wabtec,Industrials,Construction Machinery & Heavy Transportation Equipment
 WAT,Waters Corporation,Health Care,Life Sciences Tools & Services
-WBD,Warner Bros. Discovery,Communication Services,Broadcasting
 WDAY,"Workday, Inc.",Information Technology,Application Software
 WDC,Western Digital,Information Technology,"Technology Hardware, Storage & Peripherals"
 WEC,WEC Energy Group,Utilities,Electric Utilities
