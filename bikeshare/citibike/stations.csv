@@ -16,7 +16,7 @@ station_id,name,lat,lon,capacity
 01b7973e-c92e-4fbe-890e-2c24de33ce0e,Macon St & Patchen Ave,40.68374,-73.9261,19
 01f01352-50d4-484e-a611-576b18ac373a,Bergen St & 4 Ave,40.68256425759694,-73.9798977971077,34
 023127f2-a6e0-4fae-ba34-178acccb993e,5 Ave & E 135 St,40.812191,-73.937838,21
-023cf549-bd85-4f9a-abd8-70ba29d7e86b,W Tremont Ave & Montgomery Ave,40.851788,-73.916418,21
+023cf549-bd85-4f9a-abd8-70ba29d7e86b,W Tremont Ave & Montgomery Ave,40.851788,-73.916418,20
 0258da92-f770-4acc-b20b-91b78aff791e,Flatbush Ave & Lincoln Rd,40.66131,-73.96091,23
 026fd07d-d810-45dc-9237-a3d84dce4fa9,Bergen St & Mother Gaston Blvd,40.67374,-73.90852,24
 02fb0f6a-b1dc-4e1c-97f8-fe70462670a3,Park Circle & East Dr,40.651566,-73.972212,29
